@@ -1,0 +1,6 @@
+{
+  "name": "Apex AML — Officer Intelligence & Decision-Support",
+  "description": "Enterprise AML investigation and decision-support platform answering critical transaction monitoring, customer risk intelligence, explainable ML, and audit workflow questions for banking compliance officers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

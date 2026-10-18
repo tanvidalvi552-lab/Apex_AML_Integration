@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    --font-sans: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'JetBrains Mono', Courier, monospace;
+  }
+
+  *,
+  html,
+  body,
+  button,
+  input,
+  select,
+  textarea,
+  table {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    letter-spacing: normal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+    letter-spacing: normal;
+  }
+
+  .font-mono,
+  pre,
+  code {
+    font-family: var(--font-mono) !important;
+  }
+}
+
+/* Custom scrollbars for light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
